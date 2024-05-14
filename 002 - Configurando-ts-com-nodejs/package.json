@@ -1,0 +1,19 @@
+{
+  "name": "002---configurando-ts-com-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npx tsx watch ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build":  "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.10.2",
+    "typescript": "^5.4.5"
+  }
+}
